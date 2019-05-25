@@ -11,6 +11,11 @@ public class Yelling
 		 String allPersons = peoplenum[0] + " and" +peoplenum[1];
 		 return allPersons + " are yelling";
 		 }
+	 if(peoplenum.length > 2 )
+	 {
+		 String allPersons = peoplenum[0]+","+peoplenum[1]+", "+  "and" +peoplenum[2];
+		 return allPersons + " are yelling";
+	 }
 	 else if(name == "Peter")
 	  {
 		 return name +" is yelling";
