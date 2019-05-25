@@ -30,4 +30,11 @@ Yelling y = new Yelling();
 String result = y.Scream("PETER");
 assertEquals("PETER IS YELLING",result );
 }
+@Test
+public void test2PersonAreYelling() {
+// 2 person IS YELLINg
+Yelling y = new Yelling();
+String result = y.Scream("Peter, Kadeem");
+assertEquals("Peter and Kadeem are yelling",result );
+}
 }
