@@ -37,4 +37,11 @@ Yelling y = new Yelling();
 String result = y.Scream("Peter, Kadeem");
 assertEquals("Peter and Kadeem are yelling",result );
 }
+@Test
+public void testMoreThanTwoPeopleAreYelling() {
+// more than 2 are YELLINg
+Yelling y = new Yelling();
+String result = y.Scream("Peter, Kadeem, Albert");
+assertEquals("Peter, Kadeem, and Albert are yelling",result );
+}
 }
