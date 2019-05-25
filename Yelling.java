@@ -7,6 +7,11 @@ public class Yelling
 	  {
 	 return "Peter is yelling";
 	 }
+
+	 else if(name == "")
+	  {
+	 return "Nobody is yelling";
+	 }
 	return name; 
  }
 }
